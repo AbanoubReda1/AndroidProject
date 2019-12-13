@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+
+        <item>Choose City ...</item>
+        <item>Egypt</item>
+        <item>Alexandria</item>
+        <item>Portsaid</item>
+        <item>Ismailia</item>
+        <item>Luxor</item>
+        <item>Aswan</item>
+        <item>Menia</item>
+        <item>Suez</item>
+        <item>Matrouh</item>
+        <item></item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

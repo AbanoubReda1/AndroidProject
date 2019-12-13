@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+   android:layout_marginTop="15dp" >
+
+    <RelativeLayout
+        android:id="@+id/listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_bg_color"
+        android:padding="15dp"
+       >
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/apple" />
+
+        <TextView
+            android:id="@+id/fruits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_below="@+id/images"
+
+            android:text="ششش"
+            android:textColor="@color/title_text_color"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
